@@ -7,8 +7,8 @@
 	<title> Культурный фонд имени И.А. Гончарова </title>
 
 	<?php wp_head(); // сюда подключаются стили и скрипты предподключенные WP
-	include_once __DIR__ . "/functions.php" ?>
-
+	include_once __DIR__ . "/functions.php";
+	include_once __DIR__."/counters.php";?>
 	<meta name="keywords" content="совет музеев Приволжского федерального округа">
 	<meta name="description" content="Официальный сайт совета музеев Приволжского федерального округа">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
